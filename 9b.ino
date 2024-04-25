@@ -1,7 +1,7 @@
 // Tutorial 9b. Audio input from an amplified microphone
 
-// Main parts: Adafruit Metro Mini, Adafruit Electret
-// Microphone Amplifier - MAX4466, capacitors, resistors
+// Main parts: Adafruit Metro Mini, Adafruit Electret Microphone
+// Amplifier - MAX4466, capacitors, resistors
 
 // Variables that remain constant
 const byte pinAudioIn = 0; // Analog input pin from microphone amplifier board
@@ -31,7 +31,7 @@ void loop()
 
   while (millis() - timeSamplingStart < timeIntervalSampling) // Sample for timeIntervalSampling milliseconds
   {
-    audioInRaw = analogRead(pinAudioIn) + 0; // ADC correction factor +- # at 5V, +- # at 3.3V, +- # at 2.5V
+    audioInRaw = analogRead(pinAudioIn) + 0; // ADC correction factor +- # at 3.3V, +- # at 2.5V
     audioInRectified = abs(audioInRaw - levelShift); // Rectify and re-fit to 0
 
     audioMin = min(audioInRectified, audioMin); // Find the minimum input value
