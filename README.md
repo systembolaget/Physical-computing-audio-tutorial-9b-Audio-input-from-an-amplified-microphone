@@ -22,7 +22,7 @@ You can click the image to play the associated YouTube video
 €  1,00 Jumper cables
 €  1,00 2,1mm DC barrel-jack
 €  2,00 220µF 10V el. cap., 0.01 µF, 2 0.1µF cer. caps
-€  2,00 2 2,7kΩ 1% resistors, 100Ω 1% resistor
+€  2,00 100Ω 1%, 2 2,7kΩ 1% resistors
 € 13,00 MEANWELL GS12E05-P1I PSU
 € 46,00
 </pre>  
